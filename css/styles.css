@@ -20,7 +20,13 @@ footer ul {
 }
 footer ul:nth-child(3) {
   position: relative;
-  left: 200px;
+  display: flex;
+  align-items: flex-start;
+  float: right;
+}
+footer ul:nth-child(2){
+  position: relative;
+  bottom: 22px;
 }
 footer a:link {
    text-decoration: none;
